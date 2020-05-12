@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top p-0 bg-white">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a href="#" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <!-- <img src="images/img-user.jpg"> -->
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>儲值中心</p>
+        <p class="h2">add value</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-sm-auto">
+        <h2 class="add-tit">MyCard儲值</h2>
+      </div>
+      <div class="col-sm-auto ml-auto">
+        <nav class="nav nav-pills nav-page" role="tablist">
+          <a class="nav-link  active" data-toggle="tab" href="#mycard-card">點數卡</a>
+          <a class="nav-link" data-toggle="tab" href="#mycard-trans">轉點數</a>
+          <a class="nav-link" data-toggle="tab" href="#mycard-credit">信用卡</a>
+          <a class="nav-link" data-toggle="tab" href="#mycard-telecom">小額電信</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="tab-content bg-white p-2 p-md-3 mb-3">
+      <!-- MyCard 點數卡 -->
+      <article class="tab-pane fade show active" id="mycard-card" role="tabpanel">
+        <h5 class="text-primary mb-3">MyCard-點數卡</h5>
+        <form>
+          <div class="form-group w-lg-25">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select" id="">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+            <small class="form-text text-muted">若要於遊戲中購買商品，請務必先進行轉點數動作</small>
+          </div>
+          <button type="submit" class="btn btn-primary my-5">確認送出</button>
+        </form>
+        <div class="border-top">
+          <p class="text-primary text-center h2 my-4">
+            <i class="fas fa-exclamation-triangle"></i>
+          </p>
+          <ul class="note">
+            <li>查詢 MyCard 點數卡販售地點請
+              <a href="#">點我</a>。</li>
+            <li>近來詐騙頻傳，提醒您「妥善保存個人資料」，請勿在電話、網路中洩漏家中成員的個資，也勿聽信他人指示購買點數，避免上當受害。如有發現疑似詐騙，請撥打165反詐騙專線。</li>
+          </ul>
+        </div>
+      </article>
+      <!-- MyCard 轉點數 -->
+      <article class="tab-pane fade" id="mycard-trans" role="tabpanel">
+        <h5 class="text-primary mb-3">MyCard-轉點數</h5>
+        <form>
+          <div class="form-group  w-lg-25">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select" id="">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+            <small class="form-text text-muted">若要於遊戲中購買商品，請務必先進行轉點數動作</small>
+          </div>
+          <label>請選擇點數</label>
+          <div class="from-group form-inline">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-trans1" name="mycard-trans" checked>
+              <label class="custom-control-label" for="mycard-trans1">150點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-trans2" name="mycard-trans">
+              <label class="custom-control-label" for="mycard-trans2">300點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-trans3" name="mycard-trans">
+              <label class="custom-control-label" for="mycard-trans3">500點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-trans4" name="mycard-trans">
+              <label class="custom-control-label" for="mycard-trans4">1000點</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary my-5">確認送出</button>
+        </form>
+        <div class="border-top">
+          <p class="text-primary text-center h2 my-4">
+            <i class="fas fa-exclamation-triangle"></i>
+          </p>
+          <ul class="note">
+            <li>近來詐騙頻傳，提醒您「妥善保存個人資料」，請勿在電話、網路中洩漏家中成員的個資，也勿聽信他人指示購買點數，避免上當受害。如有發現疑似詐騙，請撥打165反詐騙專線。</li>
+          </ul>
+        </div>
+      </article>
+      <!-- MyCard 信用卡 -->
+      <article class="tab-pane fade" id="mycard-credit" role="tabpanel">
+        <h5 class="text-primary mb-3">MyCard 信用卡</h5>
+        <form>
+          <div class="form-group w-lg-25">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select" id="">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+            <small class="form-text text-muted">若要於遊戲中購買商品，請務必先進行轉點數動作</small>
+          </div>
+          <label>請選擇點數</label>
+          <div class="form-group form-inline">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit1" name="mycard-credit" checked>
+              <label class="custom-control-label" for="mycard-credit1">150點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit2" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit2">300點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit3" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit3">350點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit4" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit4">400點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit5" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit5">450點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit6" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit6">500點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit7" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit7">1000點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit8" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit8">1150點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit9" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit9">2000點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit10" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit10">3000點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-credit11" name="mycard-credit">
+              <label class="custom-control-label" for="mycard-credit11">5000點</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">信用卡付費</label>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="mycary-credit-pay">
+              <label class="custom-control-label" for="mycary-credit-pay"> 台灣地區信用卡付款（3D驗證）</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary my-5">確認送出</button>
+        </form>
+        <div class="border-top">
+          <p class="text-primary text-center h2 my-4">
+            <i class="fas fa-exclamation-triangle"></i>
+          </p>
+          <ul class="note">
+            <li>近來詐騙頻傳，提醒您「妥善保存個人資料」，請勿在電話、網路中洩漏家中成員的個資，也勿聽信他人指示購買點數，避免上當受害。如有發現疑似詐騙，請撥打165反詐騙專線。</li>
+          </ul>
+        </div>
+      </article>
+      <!-- MyCard 小額電信 -->
+      <article class="tab-pane fade" id="mycard-telecom" role="tabpanel">
+        <h5 class="text-primary mb-3">MyCard-小額電信</h5>
+        <form>
+          <div class="form-group w-lg-25">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select" id="">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+            <small class="form-text text-muted">若要於遊戲中購買商品，請務必先進行轉點數動作</small>
+          </div>
+
+          <label for="">請選擇點數</label>
+          <div class="form-group form-inline">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count1" name="mycard-telecom-count"
+                checked>
+              <label class="custom-control-label" for="mycard-telecom-count1">150點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-2" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-2">300點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-3" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-3">350點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-4" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-4">400點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-5" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-5">450點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-6" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-6">500點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-7" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-7">1000點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-8" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-8">1150點</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-count-9" name="mycard-telecom-count">
+              <label class="custom-control-label" for="mycard-telecom-count-9">2000點</label>
+            </div>
+          </div>
+
+          <label for="">請選擇電信業</label>
+          <div class="form-group form-inline">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-1"
+                name="mycard-telecom-carrier" checked>
+              <label class="custom-control-label" for="mycard-telecom-carrier-1">中華市話</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-2"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-2">中華電信</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-3"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-3">台灣大哥大</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-4"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-4">遠傳電信</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-5"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-5">台灣之星</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-6"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-6">亞太電信</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-7"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-7">ADSL 中華電信</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="mycard-telecom-carrier-8"
+                name="mycard-telecom-carrier">
+              <label class="custom-control-label" for="mycard-telecom-carrier-8">1ADSL Seednet</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary my-5">確認送出</button>
+        </form>
+
+        <div class="border-top">
+          <p class="text-primary text-center h2 my-4">
+            <i class="fas fa-exclamation-triangle"></i>
+          </p>
+          <ul class="note">
+            <li>近來詐騙頻傳，提醒您「妥善保存個人資料」，請勿在電話、網路中洩漏家中成員的個資，也勿聽信他人指示購買點數，避免上當受害。如有發現疑似詐騙，請撥打165反詐騙專線。</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>

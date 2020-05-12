@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login">
+      <a href="meber_login.html" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <!-- <img src="images/img-user.jpg"> -->
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>客服中心</p>
+        <p class="h2">service</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-sm-auto">
+        <h2 class="add-tit">FQA</h2>
+      </div>
+    </div>
+    <div class="bg-white p-3 my-3">
+      <div class="fqa-list">
+        <p class="border-bottom border-white">帳號問題</p>
+        <div id="fqa-1">
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item1">忘記密碼</button>
+          </h6>
+          <div id="fqa-1_item1" class="collapse show" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問我忘記黑馬會員密碼要如何查詢?</p>
+              <p>A：查詢會員密碼的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>點選【忘記密碼】。</li>
+                <li>輸入您要查詢的帳號，並點選【查詢】。</li>
+                <li>請至您的帳號信箱收信，即可獲得一組新的密碼。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item2">忘記帳號</button>
+          </h6>
+          <div id="fqa-1_item2" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問已經忘記會員帳號，我要在那裡查詢?</p>
+              <p>A：若您目前已經忘記帳號，請於【黑馬數位】官網客服中心→【線上回報】提供當時註冊所登記的1.會員姓名2.身分證字號3.手機號碼4.伺服器5.角色名稱，客服專員接收到訊息後，會回覆您並協助查詢帳號。
+              </p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item3">加入會員</button>
+          </h6>
+          <div id="fqa-1_item3" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：如何建立一個新的黑馬會員帳號?</p>
+              <p>A：加入會員的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，於會員中心點選【加入會員】。</li>
+                <li>請務必正確填寫【E-mail帳號】和【會員密碼】資料後，並確實瀏覽會員管理規章，並勾選同意後，點選【確認送出】。</li>
+                <li>成為黑馬平台會員。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item5">認證會員資料</button>
+          </h6>
+          <div id="fqa-1_item5" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：我有黑馬註冊帳號，要如何成為認證會員?</p>
+              <p>A：成為認證會員的步驟如下</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li>點選【會員中心】填寫會員認證資料後，並點選【確認送出】。</li>
+                <li>系統依照會員所填寫的手機號碼進行認證後，點選【確認送出】。</li>
+                <li>經過系統驗證後，玩家會收到一則認證碼。</li>
+                <li>回到【黑馬數位】官網輸入簡訊認證碼後，點選【確認送出】。</li>
+                <li>成為黑馬認證會員。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item6">修改會員資料</button>
+          </h6>
+          <div id="fqa-1_item6" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問我要在那裡修改我的會員資料?</p>
+              <p>A：修改會員資料的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li> 點選【會員中心】，即可在會員資料進行修改。
+                  <br>(※會員資料一旦註冊後，只有備用E-mail可以修改)</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item7">修改會員密碼</button>
+          </h6>
+          <div id="fqa-1_item7" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問我要在那裡修改我的會員密碼?</p>
+              <p>A：修改會員密碼的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li>點選【會員中心】。</li>
+                <li>點選【修改密碼】。</li>
+                <li>輸入您的舊密碼與新密碼，並點選【確認送出】。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item8">亂填註冊資料</button>
+          </h6>
+          <div id="fqa-1_item8" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：會員資料當時註冊時是亂填寫的，還能再修改嗎?</p>
+              <p>A：會員資料一旦註冊後，只有備用E-mail可以修改，則其它項目(如：真實姓名、帳號
+                E-MAIL、手機號碼、出生年月日、身分證字號)是無法進行修改的，為了確保會員的權益，建議您在加入會員時請正確填寫會員資料。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item9">申請遊戲帳號</button>
+          </h6>
+          <div id="fqa-1_item9" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問有黑馬帳號之後，還要註冊遊戲帳號嗎?</p>
+              <p>A：註冊成為黑馬會員，即可登入黑馬平台所提供的遊戲。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item10">收不到新密碼</button>
+          </h6>
+          <div id="fqa-1_item10" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：為何使用忘記密碼會收不到新密碼?</p>
+              <p>A：使用【忘記密碼】功能後，可前往當時註冊郵件收信確認，若您在【收件匣】找不到黑馬數位所發送密碼變更通知的信件，建議您可嘗試至垃圾郵件瀏灠，有可能被郵件系統判定為垃圾郵件，才會歸納在垃圾郵件裡。</p>
+              <p>寄送的郵件跑到垃圾郵件有以下幾個可能的原因：</p>
+              <ol>
+                <li>短時間寄送異常過量的信件。</li>
+                <li>您的連絡人信箱帳號"有效度"，如：錯誤的信箱帳號的退信比例過高，因為寄給不存在的使用者會被視為攻擊。</li>
+                <li>您的連絡人對特定IP、寄件者或網域寄出的信，按 “這是垃圾信”或輸入想擋信的電子信箱(或網域)設定在擋信名單內。</li>
+                <li>您的信件本文含有垃圾字串、字典式攻擊、或危險性高的URL。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-1_item11">手機認證會員帳號</button>
+          </h6>
+          <div id="fqa-1_item11" class="collapse" data-parent="#fqa-1">
+            <div class="px-3 pt-3">
+              <p>Q：請問一組手機號碼，可以認證幾組黑馬會員帳號呢?</p>
+              <p>A：一組手機號碼只能認證一組黑馬會員帳號。</p>
+            </div>
+          </div>
+        </div>
+        <p class="border-bottom border-white">儲值問題</p>
+        <div id="fqa-2">
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item1">電子發票</button>
+          </h6>
+          <div id="fqa-2_item1" class="collapse show" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問什麼是電子發票?</p>
+              <p>A：配合政府推行『二代電子發票整合政策』並響應環保，依據
+                <a href="https://einvoice.nat.gov.tw/home/Article!showArticleDetail?articleId=1455871823679&CSRT=3311319263700237839"
+                  target="_blank">【電子發票實施作業要點修正規定】</a>(台財資字第1020002795號)，本站提供消費者可選擇開立「二聯式電子發票」，發票依據會員選擇之載具(共通性載具/黑馬會員載具)，存放於財政部電子發票平台或本站，中獎時由平台或本站通知得獎人索取紙本兌獎。
+              </p>
+              <p>相關資料請參考
+                <a href="https://www.einvoice.nat.gov.tw/index" target="_blank">財政部電子發票整合服務平台</a>
+              </p>
+              <ul class="note">
+                <li>依據法令規定，已捐贈之發票無法索取正本及兌獎，捐贈發票電子檔的發票號碼末二碼以"**"代替。</li>
+                <li>個人戶發票開立後就不能轉為公司戶發票。</li>
+                <li>開立二聯式紙本發票與三聯式紙本發票，皆直接以紙本寄送。</li>
+                <li>發票電子檔為副本，依財政部令 發票副本僅供參考，不可直接兌獎。</li>
+                <li>若您使用手機、市話、ADSL、點數及Apple信用卡機制等付費方式，則發票都由代收廠商處理，請個別聯繫您的代收廠商詢問與索取發票。</li>
+              </ul>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item2">電子發票共通性載具</button>
+          </h6>
+          <div id="fqa-2_item2" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問二聯式電子發票中的『共通性載具』是什麼？</p>
+              <p>A：配合政府推行『二代電子發票整合政策』，用戶可於【
+                <a href="https://www.einvoice.nat.gov.tw/index"
+                  target="_blank">財政部電子發票整合服務平台</a>】申請『共通性載具』(本站提供使用『自然人憑證(載具)』『手機條碼(載具)』)，於本站購買加值服務時，在共通性載具欄位上輸入條碼號碼(包含英數、符號等)，經驗證通過，本站於訂單付款完成後，將該筆發票以電子檔形式存放於【
+                <a href="https://www.einvoice.nat.gov.tw/index"
+                  target="_blank">財政部電子發票整合服務平台</a>】，由該平台保管與中獎通知，用戶可前往平台查詢發票紀錄，得獎用戶可於平台上設定自動匯款或是到便利商店列印出中獎發票。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item3">電子發票如何知道中獎</button>
+          </h6>
+          <div id="fqa-2_item3" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：我選擇電子發票的話，如何知道我有中獎?</p>
+              <p>A：選擇『共通性載具』開立之電子發票，由【
+                <a href="https://www.einvoice.nat.gov.tw/index" target="_blank">財政部電子發票整合服務平台</a>】保管與通知中獎，得獎用戶請上平台查詢。
+              </p>
+              <p>選擇『黑馬會員載具』開立之電子發票，電子檔為副本，非中獎發票不提供索取列印紙本。凡中獎發票【黑馬數位】會由系統自動兌獎，並EMAIL通知中獎資訊且以紙本發票寄送。</p>
+              <p>※ 儲值時所要求登記的資料是為了『發票開立』時使用。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item5">官網儲值</button>
+          </h6>
+          <div id="fqa-2_item5" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：如何在【黑馬數位】官網進行儲值?</p>
+              <p>A：官網儲值的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li>點選【儲值購點】。</li>
+                <li>選擇您要的付款方式即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item6">儲值購點方式</button>
+          </h6>
+          <div id="fqa-2_item6" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問儲值購點的方式有那幾種?</p>
+              <p>A：儲值購點方式如下：</p>
+              <ol>
+                <li>MyCard：點卡儲值及轉點和電信小額付費。</li>
+                <li>歐付寶：信用卡、WebATM、ATM轉帳、海外儲值。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item7">點數卡儲值</button>
+          </h6>
+          <div id="fqa-2_item7" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問我已經有了點數卡了要怎麼去儲值?</p>
+              <p>A：點數卡儲值的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li>點選【儲值購點】。</li>
+                <li>點選【點卡儲值及轉點】。</li>
+                <li>選擇【遊戲名稱】。</li>
+                <li>選擇【伺服器名稱】。</li>
+                <li>選擇【角色名稱】。</li>
+                <li>選擇【MyCard前往儲值點數卡】，輸入上線密碼即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item8">信用卡儲值</button>
+          </h6>
+          <div id="fqa-2_item8" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：信用卡如何儲值?</p>
+              <p>A：信用卡儲值步驟如下：</p>
+              <ol>
+                <li>進入【黑馬數位】官網後，請在登入會員的欄位輸入您的黑馬會員帳號及密碼，以完成登入會員。 若您還沒有黑馬帳號，請點這裡【
+                  <a href="meber_register.html">申請加入黑馬平台會員</a>】。</li>
+                <li>登入會員(手機已驗證)後，請在【儲值購點】的頁面選擇【信用卡】儲值方式。</li>
+                <li>請選擇您要儲值的遊戲、伺服器、角色名稱。</li>
+                <li>請選擇您要儲值的面額。</li>
+                <li>點選【前往儲值】後，輸入本次於付費流程中留下手機號碼所收取到的簡訊認證碼並傳送，請注意大小寫。</li>
+                <li>經過系統認證後，輸入您的信用卡相關資訊，請確實填妥相關信用卡資料。</li>
+                <li>完成儲值。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item9">電信小額付費</button>
+          </h6>
+          <div id="fqa-2_item9" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：電信小額付費如何儲值?</p>
+              <p>A：電信小額付費儲值步驟如下：</p>
+              <ol>
+                <li>進入【黑馬數位】官網後，請在登入會員的欄位輸入您的黑馬會員帳號及密碼，以完成登入會員。 若您還沒有黑馬帳號，請點這裡【
+                  <a href="meber_register.html">申請加入黑馬平台會員</a>】。</li>
+                <li>登入會員(手機已驗證)後，請在【儲值購點】的頁面選擇【信用卡】儲值方式。</li>
+                <li>請選擇您要儲值的遊戲、伺服器、角色名稱。</li>
+                <li>請選擇您要儲值的面額。</li>
+                <li>請選擇您所使用的電信業者。</li>
+                <li>點選【前往儲值】後，請確認您要付費的品項與交易資料，以及門號和同意使用者條約相關內容。</li>
+                <li>經過系統認證後，請在3-10分鐘內回覆認證碼，若非在時間內認證完成，請您重新認證。</li>
+                <li>完成儲值。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item10">ATM轉帳儲值</button>
+          </h6>
+          <div id="fqa-2_item10" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：ATM轉帳如何儲值?</p>
+              <p>A：ATM轉帳儲值步驟如下：</p>
+              <ol>
+                <li>進入【黑馬數位】官網後，請在登入會員的欄位輸入您的黑馬會員帳號及密碼，以完成登入會員。 若您還沒有黑馬帳號，請點這裡【
+                  <a href="meber_register.html">申請加入黑馬平台會員</a>】。</li>
+                <li>登入會員(手機已驗證)後，請在【儲值購點】的頁面選擇【信用卡】儲值方式。</li>
+                <li>請選擇您要儲值的遊戲、伺服器、角色名稱。</li>
+                <li>請選擇您要儲值方式和面額，並按下【確認送出】。</li>
+                <li>經過系統認證無誤後，您將會收到一組指定轉帳的帳號，並依照指定帳戶前往您家中附近設有ATM進行轉帳。</li>
+                <li>ATM轉帳成功。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item11">WebATM儲值</button>
+          </h6>
+          <div id="fqa-2_item11" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：WebATM如何儲值?</p>
+              <p>A：WebATM儲值步驟如下：</p>
+              <ol>
+                <li>進入【黑馬數位】官網後，請在登入會員的欄位輸入您的黑馬會員帳號及密碼，以完成登入會員。 若您還沒有黑馬帳號，請點這裡【
+                  <a href="meber_register.html">申請加入黑馬平台會員</a>】。</li>
+                <li>登入會員(手機已驗證)後，請在【儲值購點】的頁面選擇【信用卡】儲值方式。</li>
+                <li>請選擇您要儲值的遊戲、伺服器、角色名稱。</li>
+                <li>請選擇您要儲值的面額。</li>
+                <li>請選擇您要儲值的銀行，並使用讀卡機插入您要儲值的晶片金融卡。</li>
+                <li>點選【前往儲值】後，請確認您的儲值相關資訊和要轉出的內容，並按下【確認付費】。</li>
+                <li>完成儲值。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item12">查詢儲值點數</button>
+          </h6>
+          <div id="fqa-2_item12" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：儲值成功後點數可以到那裡查詢?</p>
+              <p>A：建議可至遊戲中查詢您儲值後的點數。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item13">點數沒入帳</button>
+          </h6>
+          <div id="fqa-2_item13" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：儲值成功後點數沒入帳要怎麼辦?</p>
+              <p>A：若您已經儲值成功，但無任何點數入帳，這方面請您至【黑馬數位】官網→客服中心→線上回報，與客服專員聯繫，我們將為您做查詢的服務。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item14">點數使用期限</button>
+          </h6>
+          <div id="fqa-2_item14" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：儲值點數後是否有使用的期限?</p>
+              <p>A：儲值成功的點數是可以永久使用的。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item15">點數卡遺失</button>
+          </h6>
+          <div id="fqa-2_item15" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：我買的點數卡在儲值前不小心將序號遺失了，可以幫我查詢嗎?</p>
+              <p>A：如果您是購買實體點卡的玩家，未儲值前，請務必保留實體點卡。若點卡遺失客服專員將無法提供查詢服務。如果您是線上購卡的玩家，可以至點數卡官網儲值服務中的帳號查詢，自行查詢您的購卡記錄。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item16">點數卡儲值失敗</button>
+          </h6>
+          <div id="fqa-2_item16" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：為什麼我的點數卡無法儲值成功?</p>
+              <p>A：請您確認輸入的點數卡序號無誤，並確保您是使用半形輸入，仔細檢查後再輸入試看看，如果還是無法儲值成功請至【黑馬數位】官網客服中心→線上回報留下您的問題，客服專員收到您的訊息後會為您協助處理。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item17">ATM入帳時間</button>
+          </h6>
+          <div id="fqa-2_item17" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問ATM儲值轉帳多久可以入帳？</p>
+              <p>A：轉帳交易成功後，系統將會在十分鐘之內，將您所匯的金額自動轉為等值的遊戲專用點數。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item18">儲值點數面額</button>
+          </h6>
+          <div id="fqa-2_item18" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：請問儲值點數面額各為多少?</p>
+              <p>A：儲值點數面額如下：</p>
+              <ol>
+                <li>MyCard：點卡儲值及轉點和電信小額付費，點數面額分別是150點、300點、350點、400點、450點、500點、1000點、1150點、2000點。</li>
+                <li>信用卡：150點、350點、500點、1000點、2000點、5000點、10000點、20000點、30000點、40000點、50000點。</li>
+                <li>WebATM：150點、350點、500點、1000點、2000點、5000點、10000點、20000點、30000點。</li>
+                <li>ATM轉帳：150點、350點、500點、1000點、2000點、5000點、10000點、20000點、30000點。</li>
+                <li>海外儲值：150點、350點、500點、1000點、2000點、5000點、10000點。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-2_item19">索取發票</button>
+          </h6>
+          <div id="fqa-2_item19" class="collapse" data-parent="#fqa-2">
+            <div class="px-3 pt-3">
+              <p>Q：如何索取發票?</p>
+              <p>
+                【黑馬數位】邀您一起做公益，每一張發票都代表一份愛心，當您購買加值服務時，玩家們的愛心發票都將捐給公益團體。若您需索取發票時，請登入會員後至【線上回報】系統，告知購買人資料，【黑馬數位】將會把紙本發票郵寄給您。
+              </p>
+              <p>發票索取注意事項如下：</p>
+              <ol>
+                <li>請提供購買人資料「開立二聯或三聯式紙本發票、日期、金額、買受人、統一編號、地址」。</li>
+                <li>發票寄送將於訂單成立後次月十五日前統一寄出紙本發票。</li>
+                <li>未索取發票者本公司將視為同意捐贈【愛心發票】，而捐贈單位為【創世基金會】。</li>
+                <li>為了確保您的權利，請填寫正確的購買人資料，若因資料填寫不完整或錯誤導致發票無法寄送或寄錯地址，本公司視同為捐贈【愛心發票】將不另行補發。</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <p class="border-bottom border-white">活動問題</p>
+        <div id="fqa-3">
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block" data-toggle="collapse"
+              data-target="#fqa-3_item1">領取獎勵</button>
+          </h6>
+          <div id="fqa-3_item1" class="collapse show" data-parent="#fqa-3">
+            <div class="px-3 pt-3">
+              <p>Q：我在得獎名單中有看到我的帳號角色資訊，請問要如何領獎?</p>
+              <p>A：當玩家參與活動獲得獎勵時，可透過黑馬數位官網→點選【
+                <a
+                  href="about_news.html"></a>新聞專區】→點選【活動】公告→點選您參與的活動名稱和項目→請務必詳細瞭解活動相關內容和注意事項，並依照活動的指示來領獎，以及不定時留意官網相關公告訊息，以確保您自身領獎的權益。
+              </p>
+              <p>若您對於活動領獎仍有問題，建議您也可透過【
+                <a href="service_report.html">線上回報</a>】系統與我們聯繫說明，客服人員接獲您的回報後會盡快回覆您。</p>
+            </div>
+          </div>
+        </div>
+        <p class="border-bottom border-white">安全問題</p>
+        <div id="fqa-4">
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-4_item1">帳號遭盜用</button>
+          </h6>
+          <div id="fqa-4_item1" class="collapse show" data-parent="#fqa-4">
+            <div class="px-3 pt-3">
+              <p>Q：會員帳號被盜該怎麼辦?</p>
+              <p>
+                A：如果發現帳號被盜請您先行至黑馬數位官網【客服中心】→【盜用處理】查閱相關盜用處理流程和內容，並提供相關的資料及證明，若查明屬實客服中心會立即為您處理後續相關程序且視情況將該帳號和相關涉案帳號暫時停權。
+              </p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-4_item2">帳號盜用索回密碼　</button>
+          </h6>
+          <div id="fqa-4_item2" class="collapse" data-parent="#fqa-4">
+            <div class="px-3 pt-3">
+              <p>Q：我的帳號好像被盜了，請問我要怎麼索回密碼?</p>
+              <p>
+                A：親愛的玩家請您不用擔心，若您的帳號密碼遭修改，建議您可透過【黑馬數位】官網→點選左側【登入會員】使用【忘記密碼】功能，系統將寄送到您註冊時填寫的信箱並隨機產生一組新的密碼，而註冊信箱系統設定是無法更改的，故您可放心使用信箱索取新的密碼；提醒您，記得將您的新密碼變更為您要的密碼，請至【會員中心】裡的【修改密碼】變更即可。
+              </p>
+            </div>
+          </div>
+          <!-- <h6 class="mb-0 border-bottom border-white">
+                <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse" data-target="#fqa-4_item3">降低帳號被盜風險　</button>
+              </h6>
+              <div id="fqa-4_item3" class="collapse show" data-parent="#fqa-4">
+                <div class="px-3 pt-3">
+                </div>
+              </div> -->
+        </div>
+        <p class="border-bottom border-white">其它問題</p>
+        <div id="fqa-5">
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item1">登入會員</button>
+          </h6>
+          <div id="fqa-5_item1" class="collapse show" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：我已經有黑馬會員的帳號，要如何登入會員?</p>
+              <p>A：登入會員的方式請您可參閱以下的步驟：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選登入會員。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選登入即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item2">社群登入會員</button>
+          </h6>
+          <div id="fqa-5_item2" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：請問我要從那裡利用社群帳號進行登入?</p>
+              <p>A：社群帳號登入的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選【登入會員】。</li>
+                <li>點選您要登入的社群網站即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item3">傳真表格</button>
+          </h6>
+          <div id="fqa-5_item3" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：請問傳真表格要在那裡下載?</p>
+              <p>A：下載傳真表格的步驟如下：</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選【客服中心】。</li>
+                <li>點選【表格下載】。</li>
+                <li>選擇您要的傳真表格，並點選下載即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item4">客服傳真電話</button>
+          </h6>
+          <div id="fqa-5_item4" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：請問客服中心傳真電話是多少?</p>
+              <p>A：客服中心傳真電話：+886-2-8226-9697。</p>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item5">聯繫客服專員</button>
+          </h6>
+          <div id="fqa-5_item5" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：請問發生問題要如何與客服人員聯繫?</p>
+              <p>A：聯繫客服專員的步驟和說明如下：</p>
+              <p>【非會員】</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選【客服中心】。</li>
+                <li>點選【線上回報】。</li>
+                <li>依照您的問題選擇相關類別、填寫會員資料和描述問題內容後，點選【儲存送出】即可。</li>
+                <li>提醒您，請務必填寫完整有效E-mail信箱，以免收不到客服專員的回覆。</li>
+              </ol>
+              <p>【黑馬會員】</p>
+              <ol>
+                <li>請至【黑馬數位】官網，點選左側【登入會員】。</li>
+                <li>輸入您的E-mail帳號、密碼，並點選【登入】。</li>
+                <li>點選【客服中心】。</li>
+                <li>點選【線上回報】。</li>
+                <li>依照您的問題選擇相關類別、填寫會員資料和描述問題內容後，點選【儲存送出】即可。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item6">客服中心服務時間</button>
+          </h6>
+          <div id="fqa-5_item6" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：請問客服中心服務時間是什麼時候?</p>
+              <p>A：服務項目和時間如下：</p>
+              <ol>
+                <li>E-mail服務時間：24小時。</li>
+                <li>傳真服務時間：24小時。</li>
+              </ol>
+            </div>
+          </div>
+          <h6 class="mb-0 border-bottom border-white">
+            <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse"
+              data-target="#fqa-5_item7">伺服器例行維護時間</button>
+          </h6>
+          <div id="fqa-5_item7" class="collapse" data-parent="#fqa-5">
+            <div class="px-3 pt-3">
+              <p>Q：遊戲伺服器什麼時候例行維護?</p>
+              <p>A：親愛的玩家您好，若遊戲伺服器要進行例行維護，會於遊戲內或官網發佈相關公告訊息。</p>
+            </div>
+          </div>
+          <!-- <h6 class="mb-0 border-bottom border-white">
+                <button class="btn btn-link btn-block text-left text-secondary bg-primary-o--2 py-2" data-toggle="collapse" data-target="#fqa-5_item8">線上回報問題回覆時間</button>
+              </h6>
+              <div id="fqa-5_item8" class="collapse" data-parent="#fqa-5">
+                <div class="px-3 pt-3">
+  
+                </div>
+              </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>

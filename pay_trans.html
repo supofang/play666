@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top p-0 bg-white">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a href="#" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <!-- <img src="images/img-user.jpg"> -->
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>儲值中心</p>
+        <p class="h2">add value</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-sm-auto">
+        <h2 class="add-tit">平台轉點</h2>
+      </div>
+    </div>
+    <!-- 平台轉點 -->
+    <div class="bg-white p-2 p-md-3 mb-3">
+      <div class="alert alert-dark text-center">平台剩餘點數：0</div>
+      <form>
+        <div class="form-group w-lg-25">
+          <label for="">請選擇遊戲</label>
+          <select class="custom-select" id="">
+            <option>遊戲名稱</option>
+            <option>遊戲名稱</option>
+            <option>遊戲名稱</option>
+            <option>遊戲名稱</option>
+          </select>
+          <small class="form-text text-muted">若要於遊戲中購買商品，請務必先進行轉點數動作</small>
+        </div>
+        <!-- 伺服器 角色名稱 -->
+        <div class="form-group form-row">
+          <div class="col-sm-6 mb-3">
+            <select class="custom-select" id="">
+              <option>S1 XXXXXXX</option>
+              <option>S2 XXXXXXX</option>
+              <option>S3 XXXXXXX</option>
+              <option>S4 XXXXXXX</option>
+            </select>
+            <small class="form-text text-muted">請選擇伺服器</small>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <select class="custom-select" id="">
+              <option>歐靜</option>
+              <option>歐靜</option>
+              <option>歐靜</option>
+              <option>歐靜</option>
+            </select>
+            <small class="form-text text-muted">請選擇角色名稱</small>
+          </div>
+        </div>
+        <!-- 點數 -->
+        <label for="">請選擇點數</label>
+        <div class="form-group form-inline">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-1" name="trans" checked>
+            <label class="custom-control-label" for="trans-1">150點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-2" name="trans">
+            <label class="custom-control-label" for="trans-2">350點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-3" name="trans">
+            <label class="custom-control-label" for="trans-3">500點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-4" name="trans">
+            <label class="custom-control-label" for="trans-4">1000點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-5" name="trans">
+            <label class="custom-control-label" for="trans-5">2000點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-6" name="trans">
+            <label class="custom-control-label" for="trans-6">5000點</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="trans-7" name="trans">
+            <label class="custom-control-label" for="trans-7">10000點</label>
+          </div>
+        </div>
+        <p class="alert alert-primary text-center mt-3">購買後立即獲得300元寶，30天內每日獲得100元寶</p>
+        <button type="submit" class="btn btn-primary my-5">確認送出</button>
+      </form>
+
+      <div class="border-top">
+        <p class="text-primary text-center h2 my-4">
+          <i class="fas fa-exclamation-triangle"></i>
+        </p>
+        <ul class="note">
+          <li>請先至遊戲中創立角色才可完成轉點，點數轉換至遊戲後，將無法退還。</li>
+          <li>近來詐騙頻傳，提醒您「妥善保存個人資料」，請勿在電話、網路中洩漏家中成員的個資，也勿聽信他人指示購買點數，避免上當受害。如有發現疑似詐騙，請撥打165反詐騙專線。</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>

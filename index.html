@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login">
+      <a href="meber_login.html" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <!-- <img src="images/img-user.jpg"> -->
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+  <!-- REVOLUTION SLIDER -->
+  <section class="fullwidthbanner-container">
+    <div class="fullwidthbanner">
+      <ul>
+        <!-- SLIDE  -->
+        <li data-transition="slideleft">
+          <!-- MAIN IMAGE -->
+          <img src="images/banner/1920x550.jpg" data-bgfit="cover">
+        </li>
+        <!-- SLIDE  -->
+        <li data-transition="slideleft">
+          <!-- MAIN IMAGE -->
+          <img src="images/banner/1920x550.jpg" data-bgfit="cover">
+        </li>
+      </ul>
+
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+  </section>
+  <!-- LOGIN&禮包 -->
+  <section class="container-fluid max-width-lg">
+    <div class="row">
+      <!-- login -->
+      <div class="col-lg-5 order-lg-2 d-none d-sm-block">
+        <!-- 未登入 -->
+        <div class="login row d-none">
+          <div class="col-sm-6 col-lg-12 pb-lg-0">
+            <h5 class="text-primary">登入會員</h5>
+            <form class="mt-3">
+              <div class="form-group">
+                <input type="email" class="form-control mb-2" placeholder="請輸入「會員E-mail帳號」">
+                <input type="password" class="form-control" placeholder="請輸入「會員密碼」">
+              </div>
+
+              <div class="form-group d-flex">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="remember-account">
+                  <label class="custom-control-label" for="remember-account">記住帳號</label>
+                </div>
+                <a class="ml-auto" href="#">忘記密碼？</a>
+              </div>
+
+              <div class="form-group form-row">
+                <div class="col">
+                  <button type="button" class="btn btn-block btn-primary py-3">登入</button>
+                </div>
+                <div class="col">
+                  <a href="#" class="btn btn-block btn-outline-primary py-3">註冊</a>
+                </div>
+              </div>
+
+            </form>
+          </div>
+          <div class="col-sm-6 col-lg-12 pt-lg-0">
+            <div class="login-other">
+              <p class="mt-3">使用以下方式快速登入</p>
+              <div class="icon-group">
+                <a href="" class="btn"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="btn"><i class="fab fa-google"></i></a>
+                <a href="" class="btn"><i class="fab fa-line"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 登入 -->
+        <div class="index-member">
+          <div class="d-flex align-items-center border-bottom pb-2">
+            <a class="img-user img-user-s mr-1"><img src="images/img-user.jpg"></a>
+            <p class="text-truncate mb-0">xxAA12a@gameboss.com.tw</p>
+            <a href="" class="ml-auto text-nowrap">登出<i class="fas fa-sign-out-alt ml-2"></i></a>
+          </div>
+          <p class="my-3">最近遊戲記錄：</p>
+          <ul class="list-unstyled border-bottom">
+            <li class="d-flex align-items-center py-2">
+              <img class="rounded img-15" src="images/banner/512x512.jpg" alt="">
+              <span class="col">遊戲名稱</span>
+              <span class="text-date mr-2 ml-auto">2019/08/22</span>
+              <a class="btn btn-primary" href="">開始玩</a>
+            </li>
+            <li class="d-flex align-items-center py-2">
+              <img class="rounded img-15" src="images/banner/512x512.jpg" alt="">
+              <span class="col">遊戲名稱</span>
+              <span class="text-date mr-2 ml-auto">2019/08/22</span>
+              <a class="btn btn-primary" href="">開始玩</a>
+            </li>
+            <li class="d-flex align-items-center py-2">
+              <img class="rounded img-15" src="images/banner/512x512.jpg" alt="">
+              <span class="col">遊戲名稱enhyy</span>
+              <span class="text-date mr-2 ml-auto">2019/08/22</span>
+              <a class="btn btn-primary" href="">開始玩</a>
+            </li>
+          </ul>
+          <a href="meber_data.html" class="btn btn-primary">會員中心</a>
+        </div>
+      </div>
+      <!-- 推薦禮包 -->
+      <div class="col-lg-7">
+        <div class="content-home">
+          <div class="tit-home">
+            <h3>最新好康</h3>
+            <a href="treasure_get.html" class="btn-more ml-auto">MORE</a>
+          </div>
+          <div class="owl-carousel owl-carousel-w-auto px-2 py-4">
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈22aabb2</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+            <div class="card-gift">
+              <img class="img-128" src="images/banner/512x512.jpg">
+              <p class="text-truncate">禮包名稱哈哈哈</p>
+              <a href="" class="btn btn-outline-primary btn-block">領取</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 正在玩 -->
+  <section class="container-fluid max-width-lg">
+    <div class="content-home">
+      <div class="tit-home">
+        <h3>大家正在玩</h3>
+        <a href="games.html" class="btn-more ml-auto">MORE</a>
+      </div>
+
+      <div class="owl-carousel owl-carousel-autoplay px-2 py-4">
+        <div class="card-play">
+          <div class="card-play-img">
+            <img class="img-128" src="images/banner/512x512.jpg">
+          </div>
+          <div class="card-play-text">
+            <p class="text-truncate">帳號abadadeeddd哈哈</p>
+            <p class="text-secondary mb-auto">1秒前玩過xxxxxxxx哦哦哦哦</p>
+            <div class="dropdown-divider"></div>
+            <a href="games_intor.html" class="btn btn-primary btn-block">開始玩</a>
+          </div>
+        </div>
+        <div class="card-play">
+          <div class="card-play-img">
+            <img class="img-128" src="images/banner/512x512.jpg">
+          </div>
+          <div class="card-play-text">
+            <p class="text-truncate">帳號abadadeeddd</p>
+            <p class="text-secondary mb-auto">1秒前玩過xxxxxxxx</p>
+            <div class="dropdown-divider"></div>
+            <a href="games_intor.html" class="btn btn-primary btn-block">開始玩</a>
+          </div>
+        </div>
+        <div class="card-play">
+          <div class="card-play-img">
+            <img class="img-128" src="images/banner/512x512.jpg">
+          </div>
+          <div class="card-play-text">
+            <p class="text-truncate">帳號abada</p>
+            <p class="text-secondary mb-auto">1秒前玩過xxxxxxxx</p>
+            <div class="dropdown-divider"></div>
+            <a href="games_intor.html" class="btn btn-primary btn-block">開始玩</a>
+          </div>
+        </div>
+        <div class="card-play">
+          <div class="card-play-img">
+            <img class="img-128" src="images/banner/512x512.jpg">
+          </div>
+          <div class="card-play-text">
+            <p class="text-truncate">帳號abadadeeddd</p>
+            <p class="text-secondary mb-auto">1秒前玩過xxxxxxxx</p>
+            <div class="dropdown-divider"></div>
+            <a href="games_intor.html" class="btn btn-primary btn-block">開始玩</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- GAMES -->
+  <div class="content-home">
+    <section class="container-fluid max-width-lg pb-5">
+      <div class="tit-home">
+        <h3>遊戲推薦</h3>
+        <a href="games.html" class="btn-more ml-auto">MORE</a>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle">
+                  <i class="fab fa-android"></i>
+                </a>
+                <a href="" class="btn btn-black rounded-circle">
+                  <i class="fab fa-apple"></i>
+                </a>
+                <a href="" class="btn btn-fb rounded-circle">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="btn btn-apk rounded-circle">
+                  <i class="icon icon-apk"></i>
+                </a>
+                <a href="" class="btn btn-primary rounded-circle">
+                  <i class="icon icon-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle">
+                  <i class="fab fa-android"></i>
+                </a>
+                <a href="" class="btn btn-black rounded-circle">
+                  <i class="fab fa-apple"></i>
+                </a>
+                <a href="" class="btn btn-fb rounded-circle">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="btn btn-apk rounded-circle">
+                  <i class="icon icon-apk"></i>
+                </a>
+                <a href="" class="btn btn-primary rounded-circle">
+                  <i class="icon icon-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle">
+                  <i class="fab fa-android"></i>
+                </a>
+                <a href="" class="btn btn-black rounded-circle">
+                  <i class="fab fa-apple"></i>
+                </a>
+                <a href="" class="btn btn-fb rounded-circle">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="btn btn-apk rounded-circle">
+                  <i class="icon icon-apk"></i>
+                </a>
+                <a href="" class="btn btn-primary rounded-circle">
+                  <i class="icon icon-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+                <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+                <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+                <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+                <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+                <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+                <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-6">
+          <div class="card card-game">
+            <a href="games_intor.html" class="img-game">
+              <img class="card-img-top" src="images/banner/600x450.jpg">
+              <span class="icon-category">HOT</span>
+            </a>
+            <div class="card-body text-center">
+              <p>遊戲名稱</p>
+              <div class="icon-group">
+                <a href="" class="btn btn-android rounded-circle">
+                  <i class="fab fa-android"></i>
+                </a>
+                <a href="" class="btn btn-black rounded-circle">
+                  <i class="fab fa-apple"></i>
+                </a>
+                <a href="" class="btn btn-fb rounded-circle">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="btn btn-apk rounded-circle">
+                  <i class="icon icon-apk"></i>
+                </a>
+                <a href="" class="btn btn-primary rounded-circle">
+                  <i class="icon icon-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+  <!-- Modal alert -->
+  <div class="modal fade" id="alertModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-body text-center py-4">
+          <p>您尚未登入!</p>
+          <button type="button" class="btn btn-primary mt-2 px-4" data-dismiss="modal">確認</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/jquery.themepunch.plugins.min.js"></script>
+  <script src="javascripts/jquery.themepunch.revolution.min.js"></script>
+  <script src="javascripts/owl.carousel.min.js"></script>
+  <script src="javascripts/script.js"></script>
+
+  <script>
+    // $(document).ready(function () {
+    //   setTimeout(function () { 
+    //     $('#alertModal').modal('show');
+    //   }, 1000);
+    // });
+  </script>
+
+</body>
+
+</html>

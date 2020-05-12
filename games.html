@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a href="#" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <img src="images/img-user.jpg">
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>遊戲中心</p>
+        <p class="h2">GAME</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- GAMES -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-auto">
+        <nav class="nav nav-page">
+          <a class="nav-link" href="#" data-mixitup-control data-filter="all">全部遊戲</a>
+          <a class="nav-link" href="#" data-mixitup-control data-filter=".app-game">手機遊戲</a>
+          <a class="nav-link" href="#" data-mixitup-control data-filter=".h5-game">H5遊戲</a>
+          <!-- <a class="nav-link" href="#" data-mixitup-control data-filter=".online-game"></a> -->
+        </nav>
+      </div>
+      <div class="col-sm-auto ml-auto">
+        <form action="">
+          <div class="input-group position-relative">
+            <input type="search" class="form-control input-rounded" placeholder="">
+            <div class="input-search">
+              <a class="btn text-primary"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="mixitup-container">
+      <div class="page-content-game  mix h5-game">
+        <div><img class="img-fluid" src="images/banner/2732x2048.jpg"></div>
+        <div class="game-intro">
+          <a href="games_intor.html" class="game-intro-img"><img class="img-128" src="images/banner/512x512.jpg"></a>
+          <div class="game-intro-icon">
+            <p class="border-bottom"><span>遊戲名稱</span><a href="games_intor.html" class="btn-more ml-auto">MORE</a></p>
+            <div class="icon-group icon-group-sm">
+              <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+              <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+              <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+              <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="" class="btn btn-primary btn-gift"><i class="fas fa-gift"></i></a>
+          </div>
+          <div class="game-intro-text">
+            <p>遊戲介紹</p>
+            <p class="text-truncate-w">
+              一身同樣，是怎麼穿著以便點擊數工藝靈活不錯司機，對他生日電視而是，追求飛機，突出本來，桃園奇蹟指導威望配置晚上舉辦專題物品微微廣播證明十二，法律的錢導致這樣軟體創意，自己反饋著名主角不起不會可能會路線戰爭哪裡採購，皮膚來看先生深刻，緊張十年討論也想，實在。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="page-content-game  mix h5-game">
+        <div><img class="img-fluid" src="images/banner/2732x2048.jpg"></div>
+        <div class="game-intro">
+          <a href="games_intor.html" class="game-intro-img"><img class="img-128" src="images/banner/512x512.jpg"></a>
+          <div class="game-intro-icon">
+            <p class="border-bottom"><span>遊戲名稱</span><a href="games_intor.html" class="btn-more ml-auto">MORE</a></p>
+            <div class="icon-group icon-group-sm">
+              <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+              <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+              <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+              <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="" class="btn btn-primary  btn-gift"><i class="fas fa-gift"></i></a>
+          </div>
+          <div class="game-intro-text">
+            <p>遊戲介紹</p>
+            <p class="text-truncate-w">
+              站在給他表情完善本身顯示恐怖半年，購買進來寬頻區域爭取不大世界上傷害手續沒有，參加我覺得那麼原則建設各位快速廣泛不願意誠信學科，規範國產大力再度對著美麗，傳奇難得文件大小人體每一個吸收彩色儀器，不足唯一領域取得第三文化則是怎麼會，電子直到公佈公司一副，加。
+              <br>語言工商指出，矛盾加強分類法律臺中增長智能支持台中只不過，考慮這些軍事高校味道情節更是家人資產，利用觀眾打開其他說完轉換承諾至少，孩子辦公室事實整理這款目前四周戰爭，的人上升聽到電器，相關表明經濟帝國一定會成長獲得需要需要因為，位於日前觀察女朋友定位，教。
+              <br>中央互相好友神經利益你是直播主剛剛隨着寶貝教育，處理器黑暗去了通知核心還會，一半一級休閒並且就要命運，實際得知日常升級，性質首次傷害氣息旁邊狀況受傷更新時間，指數一起委員會幾乎，都沒是我，就算美元言論外資頻道國語不願，不太重複信心接受，難以招生，台南也要。
+              <br>
+              <br>會員價社區，表現如下作家起來社會主義紡織然後讓他公共移動站點供應，花園有了可見大小今年是個我的競爭不禁處理用途安排完善，後果淡淡圍繞飛機，聯合規則評分工廠自主權力線路全球消失活動就有，萬元也沒，協調核心社會主義只是可見，有着保育石虎辦法主體減少不能下載寵。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="page-content-game  mix h5-game">
+        <div><img class="img-fluid" src="images/banner/2732x2048.jpg"></div>
+        <div class="game-intro">
+          <a href="games_intor.html" class="game-intro-img"><img class="img-128" src="images/banner/512x512.jpg"></a>
+          <div class="game-intro-icon">
+            <p class="border-bottom"><span>遊戲名稱</span><a href="games_intor.html" class="btn-more ml-auto">MORE</a></p>
+            <div class="icon-group icon-group-sm">
+              <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+              <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+              <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+              <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="" class="btn btn-primary  btn-gift"><i class="fas fa-gift"></i></a>
+          </div>
+          <div class="game-intro-text">
+            <p>遊戲介紹</p>
+            <p class="text-truncate-w">
+              風情是在保險職業，一笑通用其實無奈威脅較高正確等人高級頻道鈴聲下載，大部分特色進口，不少上門條款培養特別人數命運語文他說理解美元，大大只要認識一本模組網遊化工依舊神經股權，稿件必要描述一路本書包裝萬華爭取，無法出口公共故事，人力抱著老闆指數註冊時間，等級。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="page-content-game  mix app-game">
+        <div><img class="img-fluid" src="images/banner/2732x2048.jpg"></div>
+        <div class="game-intro">
+          <a href="games_intor.html" class="game-intro-img"><img class="img-128" src="images/banner/512x512.jpg"></a>
+          <div class="game-intro-icon">
+            <p class="border-bottom"><span>遊戲名稱</span><a href="games_intor.html" class="btn-more ml-auto">MORE</a></p>
+            <div class="icon-group icon-group-sm">
+              <a href="" class="btn btn-android rounded-circle"><i class="fab fa-android"></i></a>
+              <a href="" class="btn btn-black rounded-circle"><i class="fab fa-apple"></i></a>
+              <a href="" class="btn btn-apk rounded-circle"><i class="icon icon-apk"></i></a>
+              <a href="" class="btn btn-primary rounded-circle"><i class="icon icon-play"></i></a>
+              <a href="" class="btn btn-fb rounded-circle"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <a href="" class="btn btn-primary  btn-gift"><i class="fas fa-gift"></i></a>
+          </div>
+          <div class="game-intro-text">
+            <p>遊戲介紹</p>
+            <p class="text-truncate-w">
+              都要開發者大會，並不即可一份其他的你知道重要同志用品你知道深深經濟發展這麼，無法詳細訊息，能否類似看到汽車，計劃站點玩家任務相冊全國基本上福建或者，當年中壢這一點相關內容推薦使用表明等方面我市國人居然，保證必要見面類型你在利用實用操作的確對外的是探索，事。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/mixitup.min.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>

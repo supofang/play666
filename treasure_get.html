@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top p-0 bg-white">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a href="#" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <!-- <img src="images/img-user.jpg"> -->
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>遊戲好康</p>
+        <p class="h2">GAME GIFT</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- GIFT -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-auto">
+        <nav class="nav nav-pills nav-page" role="tablist">
+          <a class="nav-link  active" data-toggle="tab" href="#gift">遊戲禮包</a>
+          <a class="nav-link" data-toggle="tab" href="#task" href="#">任務中心</a>
+          <a class="nav-link" data-toggle="tab" href="#record" href="#">領取記錄</a>
+        </nav>
+      </div>
+      <div class="col-sm-auto ml-auto">
+        <form action="">
+          <div class="input-group position-relative">
+            <input type="search" class="form-control input-rounded" placeholder="">
+            <div class="input-search">
+              <a class="btn text-primary"><i class="fas fa-search"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="tab-content">
+      <article class="tab-pane fade show active" id="gift" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>遊戲禮包</h6>
+                <p class="text-primary">兌換期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary" data-toggle="modal" data-target="#giftModal">領取</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="tab-pane fade" id="task" role="tabpanel">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="gift">
+              <a class="gift-img" href="#"><img class="img-128" src="images/banner/512x512.jpg"></a>
+              <div class="gift-text">
+                <h6>xxx遊戲任務</h6>
+                <p class="text-primary">任務期限：2019/10/10</p>
+                <p class="text-secondary">獎勵內容：XXXXX、XXXXXXX</p>
+                <a href="" class="btn btn-outline-primary">做任務</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="tab-pane fade" id="record" role="tabpanel">
+        <div class="table-responsive p-3 p-md-4 mb-3 bg-white">
+          <table class="table table-hover text-nowrap">
+            <thead>
+              <tr>
+                <th scope="col">任務 / 禮包名稱</th>
+                <th scope="col">虛寶序號</th>
+                <th scope="col">領取 / 兌換日期</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>黑馬會員專屬禮包</td>
+                <td>A000000000000000</td>
+                <td>2019-01-01</td>
+              </tr>
+              <tr>
+                <td>黑馬會員專屬禮包</td>
+                <td>A000000000000000</td>
+                <td>2019-01-01</td>
+              </tr>
+              <tr>
+                <td>黑馬會員專屬禮包</td>
+                <td>A000000000000000</td>
+                <td>2019-01-01</td>
+              </tr>
+              <tr>
+                <td>黑馬會員專屬禮包</td>
+                <td>A000000000000000</td>
+                <td>2019-01-01</td>
+              </tr>
+              <tr>
+                <td>黑馬會員專屬禮包</td>
+                <td>A000000000000000</td>
+                <td>2019-01-01</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+
+    <!-- 分頁 -->
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link" href="#">
+          <i class="fas fa-chevron-left"></i>
+        </a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">
+          <i class="fas fa-chevron-right"></i>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <!-- Modal 虛寶序號 -->
+  <div class="modal fade" id="giftModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title">領取虛寶序號</h6>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <p class="h3 bg-light text-secondary p-3 mb-0">doosoeoifajde485477</p>
+          <button type="button" class="btn btn-secondary btn-block">複制</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>

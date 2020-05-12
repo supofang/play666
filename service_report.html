@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>【play666】娛樂遊戲平台</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-toggler fancy-menu" href="#navbarMenu" data-toggle="collapse">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <a class="navbar-brand logo mx-1 mx-lg-3" href="index.html">
+      <img src="images/logo.png" alt="play666">
+    </a>
+
+    <div class="collapse navbar-collapse order-5" id="navbarMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="games.html">遊戲中心</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="treasure_get.html">遊戲好康</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about_news.html">訊息中心</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">客服中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="service_report.html">線上回報</a>
+            <a class="dropdown-item" href="service_fqa.html">FQA</a>
+            <a class="dropdown-item" href="service_mem_mag.html">會員管理規章</a>
+            <a class="dropdown-item" href="service_gm_mag.html">GM管理規章</a>
+            <a class="dropdown-item" href="service_security_note.html">防盜手冊</a>
+            <a class="dropdown-item" href="service_table_download.html">表格下載</a>
+            <a class="dropdown-item" href="service_privacy.html">隱私權政策</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-icon" href="#" data-toggle="dropdown">儲值中心</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="pay_mycard.html">MyCard</a>
+            <a class="dropdown-item" href="pay_trans.html">平台轉點</a>
+            <a class="dropdown-item" href="pay_check.html">儲值查詢</a>
+            <a class="dropdown-item" href="pay_member.html">會員專屬優惠</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- 登入按扭 -->
+    <div class="order-lg-5 btn-login d-none">
+      <a href="meber_login.html" class="btn btn-primary login">
+        <span>登入</span><i class="fas fa-sign-in-alt"></i>
+      </a>
+    </div>
+    <!-- 登入後大頭 -->
+    <div class="order-lg-5 btn-login">
+      <a class="btn btn-primary" href="#" data-toggle="dropdown">
+        <div class="img-user">
+          <img src="images/img-user.jpg">
+        </div>
+      </a>
+      <div class="dropdown-menu dropdown-menu-user">
+        <a href="meber_data.html">會員資料</a>
+        <a href="meber_up_pwd.html">修改密碼</a>
+        <a class="border-top" href="#">登出</a>
+      </div>
+    </div>
+  </nav>
+  <!-- PAGE-title -->
+  <section class="container-fluid max-width-lg">
+    <div class="page-tit">
+      <div class="page-tit-img">
+        <img src="images/banner/tit-banner.jpg" alt="">
+      </div>
+      <div class="page-tit-text">
+        <p>客服中心</p>
+        <p class="h2">service</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- CONTENT -->
+  <section class="container-fluid max-width-lg">
+    <div class="row page-bar">
+      <div class="col-sm-auto">
+        <h2 class="add-tit">線上回報</h2>
+      </div>
+      <div class="col-sm-auto ml-auto">
+        <nav class="nav nav-pills nav-page" role="tablist">
+          <a class="nav-link  active" data-toggle="tab" href="#mycard-card">問題回報</a>
+          <a class="nav-link" data-toggle="tab" href="#mycard-trans">問題記錄查詢</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="tab-content bg-white p-2 p-md-3 mb-3">
+      <!-- 問題回報 -->
+      <article class="tab-pane fade show active" id="mycard-card" role="tabpanel">
+        <h5 class="text-primary mb-3">請填寫以下資料：</h5>
+        <form action="">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="帳號">
+          </div>
+          <div class="form-group form-row">
+            <div class="col">
+              <select class="custom-select">
+                <option>台灣</option>
+                <option>中國大陸</option>
+                <option>香港</option>
+                <option>澳門</option>
+                <option>馬來西亞</option>
+                <option>新加坡</option>
+              </select>
+            </div>
+            <div class="col-8">
+              <input type="tel" class="form-control" placeholder="電話、手機請擇一輸入">
+              <small class="form-text text-muted">ex：02-12345676#123</small>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">請選擇問題類別</label>
+            <select class="custom-select">
+              <option>會員帳號相關</option>
+              <option>儲值消費相關</option>
+              <option>遊戲相關問題</option>
+              <option>活動相關問題</option>
+              <option>BUG回報相關</option>
+              <option>玩家建議相關</option>
+              <option>其它問題相關</option>
+              <option>登入問題</option>
+              <option>註冊新帳號</option>
+              <option>帳號密碼查詢</option>
+              <option>帳號問題查詢</option>
+              <option>盜用問題詢問</option>
+            </select>
+          </div>
+          <div class="form-group form-row align-items-center">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="角色名稱(必填)">
+            </div>
+            <div class="col-auto">
+              <div class="custom-control custom-checkbox mr-3">
+                <input type="checkbox" class="custom-control-input" id="service_report-forget">
+                <label class="custom-control-label" for="service_report-forget">忘記了</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="問題標題">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="" rows="5"></textarea>
+            <small class="form-text text-muted">請詳細說明問題，可加快客服人員回覆速度</small>
+          </div>
+          <button type="submit" class="btn btn-primary mt-5">確認送出</button>
+        </form>
+      </article>
+      <!-- 問題記錄查詢 -->
+      <article class="tab-pane fade" id="mycard-trans" role="tabpanel">
+        <h5 class="text-primary mb-3">線上回報紀錄查詢：</h5>
+
+        <form action="">
+          <div class="form-group">
+            <label for="">請選擇遊戲</label>
+            <select class="custom-select">
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+              <option>遊戲名稱</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary mt-5">查詢記錄</button>
+        </form>
+
+        <div class="table-responsive mt-5">
+          <table class="table table-hover text-nowrap">
+            <thead class="">
+              <tr>
+                <th scope="col">日期</th>
+                <th scope="col">問題類型</th>
+                <th scope="col">標題</th>
+                <th scope="col">處理狀況</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">2000-01-01</td>
+                <td>會員帳號相關</td>
+                <td><a href="service_report-article.html">登入問題</a></td>
+                <td>已解決</td>
+              </tr>
+              <tr>
+                <td scope="row">2000-01-01</td>
+                <td>會員帳號相關</td>
+                <td><a href="service_report-article.html">登入問題</a></td>
+                <td>待處理</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid max-width-lg">
+      <div class="row align-items-center">
+        <div class="col-auto copyright">
+          <a href=""><img src="images/svg/logo-b.svg" alt="PLAY666"></a>
+          <small>@2019 PLAY666 All rights reserved.</small>
+        </div>
+        <div class="col-auto ml-sm-auto">
+          <nav class="footer-nav nav">
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+            <a href="#">預留連結</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="javascripts/vendor.js"></script>
+  <script src="javascripts/script.js"></script>
+
+</body>
+
+</html>
